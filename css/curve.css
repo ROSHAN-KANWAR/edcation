@@ -1,0 +1,208 @@
+
+section{
+ display: flex;
+ flex-direction: column;
+  text-align: center;
+  position: relative;
+  padding: 150px 20vw;
+  min-height: 400px; 
+}
+
+.custom-shape-divider-bottom-1656648883 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1656648883 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1656648883 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* 
+3rd */
+.custom-shape-divider-bottom-1656648941 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1656648941 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1656648941 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* 5th */
+.custom-shape-divider-top-1656649078 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1656649078 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1656649078 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+/* abut */
+   
+
+.custom-shape-divider-top-1656726712 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1656726712 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1656726712 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+.custom-shape-divider-bottom-1656726766 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1656726766 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1656726766 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+/* home */
+
+
+
+
+.custom-shape-divider-top-1656726190 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1656726190 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1656726190 .shape-fill {
+    fill: #FFFFFF;
+    border:none;
+    outline: none;
+}
+
+
+
+.custom-shape-divider-bottom-1656726307 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1656726307 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1656726307 .shape-fill {
+    fill: #FFFFFF;
+}
+/* ne */
+.custom-shape-divider-top-1656727436 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1656727436 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1656727436 .shape-fill {
+    fill: #FFFFFF;
+}
+/* abo */.custom-shape-divider-bottom-1656727349 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1656727349 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1656727349 .shape-fill {
+    fill: #FFFFFF;
+}

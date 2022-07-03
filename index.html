@@ -1,0 +1,727 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Edublock archive abd support student 
+  and teacher learning by facilitating reflection ,high thinking">
+  <meta name="keywords" content="computer ,maths ,physics ,chemistry , programming ,daily classes">
+  <meta name="author" content="ROSHAN KANWAR FROM KORBA">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link rel="icon" type="image/x-icon" href="photos/edur1.png">
+  <link rel="stylesheet" href="css/curve.css">
+  <title>Best Online Plateform - Education</title>
+</head>
+<style>
+  html{
+    scroll-behavior: smooth;
+    transition: all 1s;
+  }
+</style>
+<!-- heading code -->
+<body >
+  
+<header class="md:px-3 items-center bg-white shadow mx-auto  md:flex md:justify-between flex-1 items-center">
+  <div class="md:flex  md:justify-between bg-white py-4 md:px-10 px-7">
+            <div class="py-1">
+<a href="index.html" class= "cursor-pointer">
+            <img src="photos/edur1.png" class="h-12 inline px-2" alt="">
+</a>
+          </div>
+            <div class="text-3xl absolute top-8 right-8 mx-2 cursor-pointer block md:hidden">
+               <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+            </div>
+        <div>
+          </div>
+          </div>
+ <ul id="mobile-menu" class="md:flex md:items-center
+  md:pb-0 pb-12 md:static absolute bg-white
+   md:z-auto w-full pl-9 md:pl-0 md:w-auto left-[-763px] transition-all ease-in duration-500 top-[90px]">
+   <li class="mx-4 my-5 md:my-0">
+    <a href="index.html" class=" text-xl hover:text-indigo-500 duration-600">Home</a></li>
+    <li class="mx-4 my-5 md:my-0">
+        <a href="#course" class=" text-xl hover:text-indigo-500 duration-600">Course</a>
+    </li>
+    <li class="mx-4 my-5 md:my-0">
+        <a href="#about" class=" text-xl hover:text-indigo-500 duration-600">Feature</a>
+    </li>
+        <li class="mx-4 my-5 md:my-0">
+ 
+            <a href="#teacher" class=" text-xl hover:text-indigo-500 duration-600">Teachers</a>
+        </li>
+  
+        <li class="mx-4 my-5 md:my-0">
+    <a href="#contact" class=" text-xl hover:text-indigo-500 duration-600">Contact</a>
+</li>
+<button class="text-white text-2xl  text-base font-medium  duration-500 px-6 py-2 mx-4 bg-indigo-600 hover:bg-indigo-700 rounded-lg">
+ <a href="#getstart">  Get Started</a> 
+</button>
+</ul>
+ </ul>
+
+</header>
+
+
+<!-- heading code -->
+
+
+
+<!-- news alert -->
+
+<div id="alertnews" class="bg-indigo-600 ">
+    <div class="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between flex-wrap">
+        <div class="w-0 flex-1 flex items-center">
+          <span class="flex p-2 rounded-lg bg-indigo-800">
+            
+            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+            </svg>
+          </span>
+          <p class="ml-3 font-medium text-white truncate">
+            <span class="md:hidden"> We announced a new course! </span>
+            <span class="hidden md:inline"> Big news! We're excited to announce a brand new ethical hacking course. </span>
+          </p>
+        </div>
+        <div class="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
+          <a href="https://github.com/ROSHAN-KANWAR" target="_blank" class="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-600 bg-white hover:bg-indigo-50"> Learn more </a>
+        </div>
+        <div class="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
+          <button type="button" class="-mr-1 flex p-2 rounded-md hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2">
+           
+            <ion-icon name="close-outline" class="text-3xl text-white" onclick="Closealert(this)"></ion-icon>
+           
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- news alert -->
+<!-- main section -->
+<div class="md:relative overflow-hidden md:mt-0 mt-20">
+    <div class="max-w-7xl mx-auto">
+      <div class="z-10 pb-8  sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+    <div class="max-w-6xl mx-auto">
+        <main class="mt-10 mx-auto px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+          <div class="text-center lg:text-left">
+            <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+              <span class="block xl:inline">A Better Learning Future</span>
+              <span class="block text-indigo-600 xl:inline">Start Here</span>
+            </h1>
+            <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+            <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+              <div class="rounded-md shadow">
+                <a href="https://in.linkedin.com/in/roshan-kanwar-b80150170" target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> Get started </a>
+              </div>
+              <div class="mt-3 sm:mt-0 sm:ml-3">
+                <a href="https://github.com/ROSHAN-KANWAR" target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Live demo </a>
+              </div>
+            </div>
+          </div>
+        </main>
+     </div>
+   
+  </div>
+</div> 
+<div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 ">
+      <img class="md:block hidden h-50 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="photos/mars-sector-6-IgUR1iX0mqM-unsplash.jpg" alt="">
+</div>  
+</div>
+<!-- main section -->
+
+
+<!-- feature -->
+<div class="flex outline-none flex-col relative py-40 px-1/5 min-h-96 bg-indigo-600 my-10">
+  <div class="custom-shape-divider-top-1656726190">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+          <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+          <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+      </svg>
+  </div>
+  <div class="mx-auto text-center max-w-5xl text-white">
+    <div class="text-4xl font-medium my-4">An Educated mind can teach many</div>
+    <p class="my-4 text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, nesciunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta natus quo fugit? Quaerat perferendis ipsa mollitia quibusdam cum officiis enim.</p>
+    <div class="mt-3 sm:mt-0 sm:ml-3  flex justify-center items-center mx-auto">
+      <a href="https://in.linkedin.com/in/roshan-kanwar-b80150170" target="_blank" class="w-2/5 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">Join Free</a>
+    </div>
+  </div>
+      <div class="custom-shape-divider-bottom-1656726307">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+          </svg>
+      </div>
+  </div>
+ 
+<!-- course outlets -->
+<a name="course"></a>
+<div id="course" class="max-w-7xl md:py-12 py-5 bg-white  mx-auto p-4 my-5">
+  <div class="mx-auto max-w-5xl text-white items-center text-center">
+        <h2 class="text-indigo-600  tracking-wide uppercase my-3 ">All Course</h2>
+        <hr class="mx-auto w-1/5">
+        <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto ">Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>
+      </div>
+  
+<!-- card -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 md:gap-4 lg:gap-3  justify-items-center ">
+    <div class="py-10 relative">
+         <div class="rounded shadow-lg max-w-sm ">
+          <div class="relative overflow-hidden">
+            <div class="w-16 h-8 z-[9] rounded-r-lg absolute top-0 left-[10] bg-indigo-700 ">
+              <span class="font-medium rotate-12 text-2xl p-3 text-white">Free</span>
+            </div>
+    
+            <img class="w-full z-[0] scale-100 hover:scale-125 transition duration-700 ease-in-out" src="photos/bruce-mars-gJtDg6WfMlQ-unsplash.jpg" alt="yoga">
+          </div>
+            <div class="px-6 py-4">
+             <div class="font-medium text-xl mb-2"> Daily Yoga - Classes</div>
+             <p class="text-grey-100 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Animi reiciendis a, eos libero vero excepturi.</p>
+                <div class="mt-3 sm:mt-0 sm:ml-3">
+                    <a href="https://github.com/ROSHAN-KANWAR" target="_blank" class=" flex items-center justify-center border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-2 md:text-md md:px-2 px-4 py-4"> View More </a>
+                  </div> 
+            </div>
+        </div>
+    </div>
+    <!-- 2nd -->
+    <div class="py-10">
+        <div class="rounded overflow-hidden shadow-lg max-w-sm">
+          <div class="relative overflow-hidden">
+            <div class="w-16 h-8 z-[9] rounded-r-lg absolute top-0 left-[10] bg-indigo-700 ">
+              <span class="font-medium rotate-12 text-2xl p-3 text-white">Free</span>
+            </div>
+            <img class="w-full scale-100 hover:scale-125 transition duration-700 ease-in-out"
+          src="photos/jeswin-thomas-2Q3Ivd-HsaM-unsplash.jpg" alt="">
+          </div>
+            <div class="px-6 py-4">
+             <div class="font-medium text-xl mb-2">Fundamental Physics</div>
+             <p class="text-grey-100 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Animi reiciendis a, eos libero vero excepturi.</p>
+                <div class="mt-3 sm:mt-0 sm:ml-3">
+                    <a href="https://github.com/ROSHAN-KANWAR" target="_blank" class=" flex items-center justify-center border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-2 md:text-md md:px-2 px-4 py-4"> View More </a>
+                  </div> 
+            </div>
+        </div>
+    </div>
+    <!-- 3rd -->
+    <div class="py-10">
+        <div class="rounded overflow-hidden shadow-lg max-w-sm">
+          <div class="relative overflow-hidden">
+            <div class="w-16 h-8 z-[9] rounded-r-lg absolute top-0 left-[10] bg-indigo-700 ">
+              <span class="font-medium rotate-12 text-2xl p-3 text-white">Paid</span>
+            </div>
+            <img class="w-full scale-100 hover:scale-125 transition duration-700 ease-in-out" src="photos/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="">
+            </div>
+
+            <div class="px-6 py-4">
+             <div class="font-medium text-xl mb-2">Design Computer Hardware</div>
+             <p class="text-grey-100 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Animi reiciendis a, eos libero vero excepturi.</p>
+                <div class="mt-3 sm:mt-0 sm:ml-3">
+                    <a href="https://github.com/ROSHAN-KANWAR" target="_blank" class=" flex items-center justify-center border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-2 md:text-md md:px-2 px-4 py-4"> View More </a>
+                  </div> 
+            </div>
+        </div>
+    </div>
+    <!-- 4nd -->
+    <div class="py-10">
+        <div class="rounded overflow-hidden shadow-lg max-w-sm">
+          <div class="relative overflow-hidden">
+            <div class="w-16 h-8 z-[9] rounded-r-lg absolute top-0 left-[10] bg-indigo-700 ">
+              <span class="font-medium rotate-12 text-2xl p-3 text-white">Free</span>
+            </div>
+            <img class="w-full scale-100 hover:scale-125 transition duration-700 ease-in-out" src="photos/priscilla-du-preez-ggeZ9oyI-PE-unsplash.jpg" alt="">
+          </div>
+
+            <div class="px-6 py-4">
+             <div class="font-medium text-xl mb-2">Basic Library Course</div>
+             <p class="text-grey-100 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Animi reiciendis a, eos libero vero excepturi.</p>
+                <div class="mt-3 sm:mt-0 sm:ml-3">
+                    <a href="https://github.com/ROSHAN-KANWAR" target="_blank" class=" flex items-center justify-center border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-2 md:text-md md:px-2 px-4 py-4"> View More </a>
+                  </div> 
+            </div>
+        </div>
+    </div>
+    
+    <!-- 5nd -->
+    <div class="py-10">
+        <div class="rounded overflow-hidden shadow-lg max-w-sm">
+          <div class="relative overflow-hidden">
+            <div class="w-16 h-8 z-[9] rounded-r-lg absolute top-0 left-[10] bg-indigo-700 ">
+              <span class="font-medium rotate-12 text-2xl p-3 text-white">Paid</span>
+            </div>
+            <img class="w-full scale-100 hover:scale-125 transition duration-700 ease-in-out" src="photos/scott-graham-5fNmWej4tAA-unsplash.jpg" alt="">
+          </div>
+
+            <div class="px-6 py-4">
+             <div class="font-medium text-xl mb-2">Basic Programming Langaunge</div>
+             <p class="text-grey-100 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Animi reiciendis a, eos libero vero excepturi.</p>
+                <div class="mt-3 sm:mt-0 sm:ml-3">
+                    <a href="https://github.com/ROSHAN-KANWAR" target="_blank" class=" flex items-center justify-center border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-2 md:text-md md:px-2 px-4 py-4"> View More </a>
+                  </div> 
+            </div>
+        </div>
+    </div>
+    
+    <!-- 6thd -->
+    <div class="py-10">
+        <div class="rounded overflow-hidden shadow-lg max-w-sm">
+          <div class="relative overflow-hidden">
+            <div class="w-16 h-8 z-[9] rounded-r-lg absolute top-0 left-[10] bg-indigo-700 ">
+              <span class="font-medium rotate-12 text-2xl p-3 text-white">Free</span>
+            </div>
+            <img class="w-full scale-100 hover:scale-125 transition duration-700 ease-in-out" src="photos/lewis-keegan-oB2aEeE8s4A-unsplash.jpg" alt="">
+            
+            </div>
+            <div class="px-6 py-4">
+             <div class="font-medium text-xl mb-2">English Literature Course</div>
+             <p class="text-grey-100 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Animi reiciendis a, eos libero vero excepturi.</p>
+                <div class="mt-3 sm:mt-0 sm:ml-3">
+                    <a href="https://github.com/ROSHAN-KANWAR" target="_blank" class=" flex items-center justify-center border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-2 md:text-md md:px-2 px-4 py-4"> View More </a>
+                  </div> 
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+  </div>
+<!-- course outlets -->
+
+<!-- promotion video -->
+
+<div class="flex justify-center bg-slate-100 text-white space-x-6 space-y-9  ">
+  <div class="py-10">
+  <div class="flex flex-col md:flex-row md:justify-between">
+      <div class="flex flex-col md:justify-center  px-10 md:w-2/5">
+        <hr class="w-1/5 mb-2 bg-indigo-600 font-base">
+        <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold mb-4">Watch our Course</div>
+        <p class="mt-2 text-slate-500 mb-2">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
+      </div>
+      <div class="my-6 rounded px-10 md:w-3/5 "> 
+        <iframe  class="w-full h-80" src="https://www.youtube.com/embed/F9gZkfFIh9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+</div>
+</div>
+</div>
+
+<!-- about -->
+<a name="feature"></a>
+<div id="about" class="py-12 bg-white px-8 my-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase my-3">About</h2>
+        <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">A better way to learn </p>
+        <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>
+      </div>
+  
+      <div class="mt-10">
+        <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+          <div class="relative">
+            <dt>
+              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                </svg>
+              </div>
+              <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Conveniece And Flexibility</p>
+            </dt>
+            <dd class="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+          </div>
+  
+          <div class="relative">
+            <dt>
+              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+               
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 8h6m-5 0a3 3 0 110 6H9l3 3m-3-6h6m6 1a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <p class="ml-16 text-lg leading-6 font-medium text-gray-900">No hidden fees</p>
+            </dt>
+            <dd class="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+          </div>
+  
+          <div class="relative">
+            <dt>
+              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
+              </div>
+              <p class="ml-16 text-lg leading-6 font-medium text-gray-900">High-Quality Student-Tutor</p>
+            </dt>
+            <dd class="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+          </div>
+  
+          <div class="relative">
+            <dt>
+              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                </svg>
+              </div>
+              <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Web Based learning will grow</p>
+            </dt>
+            <dd class="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+          </div>
+          <div class="relative">
+            <dt>
+              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+           
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5" />
+                </svg>
+              </div>
+              <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Better Learning Experience</p>
+            </dt>
+            <dd class="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+          </div>
+          <div class="relative">
+            <dt>
+              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
+                </svg>
+              </div>
+              <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Retention Rates Are Higher</p>
+            </dt>
+            <dd class="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </div>
+  
+<!-- about -->
+
+<!-- get started -->
+<div class="bg-indigo-600 text-white flex flex-col relative py-40 px-1/5 min-h-96">
+  <div class="mx-auto text-center max-w-5xl">
+  <div class="text-4xl font-medium my-4">A Revolutionary way to Educate</div>
+  <p class="my-4 text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, nesciunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta natus quo fugit? Quaerat perferendis ipsa mollitia quibusdam cum officiis enim.</p>
+  <div class="mt-3 sm:mt-0 sm:ml-3  flex justify-center items-center mx-auto">
+    <a href="https://in.linkedin.com/in/roshan-kanwar-b80150170" target="_blank" class="w-2/5 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Live demo </a>
+  </div>
+</div>
+  <div class="custom-shape-divider-bottom-1656648883">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+      </svg>
+  </div>
+</div>
+
+<!-- teacher -->
+<a name="teacher"></a>
+<div id="teacher" class=" space-y-6  p-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center items-center">
+    <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase my-3"> Expert Teacher Team</h2>
+    <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>
+  </div>
+<div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-4">
+
+    <div class="py-10">
+<div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+    <div class="md:flex">
+      <div class="relative overflow-hidden md:shrink-0">
+        <img class="h-48 w-full object-cover md:h-full md:w-48 object-cover scale-100 hover:scale-125 transition duration-700 ease-in-out" src="photos/imansyah-muhamad-putera-n4KewLKFOZw-unsplash.jpg" alt="yoga">
+      </div>
+      <!-- <div class="md:shrink-0">
+        <img class="h-48 w-full object-cover md:h-full md:w-48" src="photos/imansyah-muhamad-putera-n4KewLKFOZw-unsplash.jpg" alt="Man looking at item at a store">
+      </div> -->
+      <div class="p-8">
+        <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Physics Faculty</div>
+        <a href="https://in.linkedin.com/in/roshan-kanwar-b80150170" target="_blank" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"><q> Toward excellence with deversity </q></a>
+        <p class="mt-2 text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit Commodi magnam ex quidem rerum minus maiores.</p>
+      </div>
+    </div>
+</div>
+</div>
+<!-- 2nd -->
+<div class="py-10">
+    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+        <div class="md:flex">
+          <div class="relative overflow-hidden md:shrink-0">
+            <img class="h-48 w-full object-cover md:h-full md:w-48 object-cover scale-100 hover:scale-125 transition duration-700 ease-in-out" src="photos/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt="yoga">
+          </div>
+        
+          <div class="p-8">
+            <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">English Faculty</div>
+            <a href="https://in.linkedin.com/in/roshan-kanwar-b80150170" target="_blank" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"><q> Toward excellence with deversity </q></a>
+            <p class="mt-2 text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit Commodi magnam ex quidem rerum minus maiores.</p>
+         
+          </div>
+        </div>
+    </div>
+    </div>
+    <!-- 3rd -->
+    <div class="py-10">
+        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div class="md:flex">
+              <div class="relative overflow-hidden md:shrink-0">
+                <img class="h-48 w-full object-cover md:h-full md:w-48 object-cover scale-100 hover:scale-125 transition duration-700 ease-in-out"  src="photos/julian-wan-WNoLnJo7tS8-unsplash.jpg" alt="yoga">
+              </div>
+             
+              <div class="p-8">
+                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Math Faculty</div>
+                <a href="https://in.linkedin.com/in/roshan-kanwar-b80150170" target="_blank" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"><q> Toward excellence with deversity </q></a>
+                <p class="mt-2 text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit Commodi magnam ex quidem rerum minus maiores.</p>
+             </div>
+            </div>
+        </div>
+        </div>
+        <!-- 4rd -->
+        <div class="py-10">
+            <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                <div class="md:flex">
+                  <div class="relative overflow-hidden md:shrink-0">
+                    <img class="h-48 w-full object-cover md:h-full md:w-48 object-cover scale-100 hover:scale-125 transition duration-700 ease-in-out"  src="photos/christian-buehner-DItYlc26zVI-unsplash.jpg" alt="yoga">
+                  </div>
+          
+                  <div class="p-8">
+                    <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Computer Faculty</div>
+                    <a href="https://in.linkedin.com/in/roshan-kanwar-b80150170" target="_blank" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"><q> Toward excellence with deversity </q></a>
+                    <p class="mt-2 text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit Commodi magnam ex quidem rerum minus maiores.</p>
+                 </div>
+                </div>
+            </div>
+            </div>
+</div>
+</div>
+
+<div id="getstart" class="bg-indigo-600 flex flex-col relative py-40 px-1/5 min-h-96">
+  <div class="custom-shape-divider-top-1656726712">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+    </svg>
+</div>
+<div class="mx-auto text-center max-w-5xl text-white">
+  <div class="text-4xl font-medium my-4">We love to make perfect solution </div>
+  <p class="my-4 text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, nesciunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta natus quo fugit? Quaerat perferendis ipsa mollitia quibusdam cum officiis enim.</p>
+  <div class="mt-3 sm:mt-0 sm:ml-3  flex justify-center items-center mx-auto">
+    <a href="https://in.linkedin.com/in/roshan-kanwar-b80150170" target="_blank" class="w-2/5 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">Get Started</a>
+  </div>
+</div>
+    <div class="custom-shape-divider-bottom-1656726766">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+      </svg>
+  </div>
+  </div>
+<!-- teacher -->
+
+<!-- google map -->
+<div class="relative w-full  space-y-6  px-10  md:px-20 py-20">
+<div class="text-center items-center">
+  <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase my-5">Head office</h2>
+  <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>
+</div>
+<div class="flex w-full justify-center items-center ">
+  <iframe class="w-full h-96" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118096.37490863784!2d82.6768043707669!3d22.334299152156945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a278f26de2eba65%3A0x3048cc6dcbdadff4!2sKorba%2C%20Chhattisgarh!5e0!3m2!1sen!2sin!4v1656751796418!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+<!-- contact form -->
+<a name="contact"></a>
+<div id="contact" class="flex min-h-screen w-full justify-center items-center">
+
+  <div class="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-indigo-700 w-full sm:px-20 p-8  shadow-lg">
+ <div class="flex flex-col justify-between space-y-6 text-white">
+ <!-- contact -->
+  <div class="w-4/5">
+  <h2 class="font-bold text-4xl tracking-wide">Contact Us</h2>
+  <p class="pt-2 text-cyan-200 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed eligendi
+     quo in maxime. Minima corrupti perferendis nemo quos qui.</p>
+   </div>
+   <!-- icon -->
+      <div class="flex flex-col space-y-4">
+        <div class="inline-flex space-x-2 items-center">
+
+          <ion-icon name="call"  class="text-2xl text-white " ></ion-icon>
+               <a href="tel:6263090909"><span >  + 91 99999526542</span></a> 
+        </div>
+        <div class="inline-flex space-x-2 items-center">
+            
+          <ion-icon name="mail" class="text-2xl text-white " ></ion-icon>
+          <a href="mailto:cpkroshan1705@gmail.com">   <span>education.in@gmail.com</span></a>
+        </div>
+        <div class="inline-flex space-x-2 items-center">
+            
+          <ion-icon name="location" class="text-2xl text-white "></ion-icon>
+                <span>Korba Chhatishgarh</span>
+        </div>
+   
+      </div>
+      <div class="space-y-4 mx-2">
+        <a href="https://in.linkedin.com/in/roshan-kanwar-b80150170" target="_blank" class="mx-2">
+          <ion-icon name="logo-facebook" class="text-2xl text-white " ></ion-icon>
+        </a>
+        <a href="https://github.com/ROSHAN-KANWAR" target="_blank" class="mx-2">
+          <ion-icon name="logo-twitter" class="text-2xl text-white " ></ion-icon>
+        </a>
+        <a href="https://in.linkedin.com/in/roshan-kanwar-b80150170" target="_blank" class="mx-2">
+          <ion-icon name="logo-linkedin" class="text-2xl text-white " ></ion-icon>
+        </a>
+        <a href="https://github.com/ROSHAN-KANWAR" target="_blank" class="mx-2">
+          <ion-icon name="logo-github" class="text-2xl text-white " ></ion-icon>
+        </a>
+      </div>
+  <div>
+
+ 
+ </div>
+ </div>
+ <!-- white -->
+ <div>
+  <div class="bg-white p-8 rounded-xl shadow-lg md:w-80">
+    <form action="" class="flex flex-col space-y-4">
+      <div>
+        <label for="" class="text-sm">Name : </label>
+      </div>
+      <div>
+        <input type="text" placeholder="Enter Name" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-200" name="" id="">
+      </div>
+      <div>
+        <label for="" class="text-sm">Email Address : </label>
+      </div>
+      <div>
+        <input type="email" placeholder="Enter Email" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-200" name="" id="">
+      </div>
+      <div>
+        <label for="" class="text-sm">Message : </label>
+      </div>
+      <div>
+        <textarea type="text" rows="4" placeholder="Message" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-200" name="" id=""></textarea>
+      </div>
+      <button type="submit" class="inline-block rounded-lg bg-cyan-700 px-4 py-4 text-white font-medium self-end">Send Message</button>
+    </form>
+  </div>
+ </div>
+</div>
+</div>
+<!-- footer -->
+<footer class="w-full   body-font">
+  <div class="mx-auto px-10 bg-gray-100 w-full px-10 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap  flex-col ">
+    <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+      <a href="index.html" class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+     
+          <img src="photos/edur1.png" class="h-12 inline px-2" alt="">
+     
+        <span class="ml-3 text-xl">Edublock</span>
+      </a>
+      <p class="mt-2 text-sm text-gray-500">Edublock archive abd support student 
+        and teacher learning by facilitating reflection ,high thinking</p>
+    </div>
+    <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">ABOUT</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a  href="https://github.com/ROSHAN-KANWAR" target="_blank" class="text-gray-600 hover:text-gray-800">Our Mission</a>
+          </li>
+          <li>
+            <a  href="https://github.com/ROSHAN-KANWAR" target="_blank" class="text-gray-600 hover:text-gray-800">Contact Us</a>
+          </li>
+          <li>
+            <a  href="https://github.com/ROSHAN-KANWAR" target="_blank" class="text-gray-600 hover:text-gray-800">Service</a>
+          </li>
+          <li>
+            <a  href="https://github.com/ROSHAN-KANWAR" target="_blank" class="text-gray-600 hover:text-gray-800">Our Vision</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">HOME</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a  href="https://github.com/ROSHAN-KANWAR" target="_blank"  class="text-gray-600 hover:text-gray-800">Student</a>
+          </li>
+          <li>
+            <a   href="https://github.com/ROSHAN-KANWAR" target="_blank" class="text-gray-600 hover:text-gray-800">Teachers</a>
+          </li>
+          <li>
+            <a   href="https://github.com/ROSHAN-KANWAR" target="_blank" class="text-gray-600 hover:text-gray-800">Members</a>
+          </li>
+
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">BLOG</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a  href="https://github.com/ROSHAN-KANWAR" target="_blank" class="text-gray-600 hover:text-gray-800">Event</a>
+          </li>
+          <li>
+            <a  href="https://github.com/ROSHAN-KANWAR" target="_blank" class="text-gray-600 hover:text-gray-800">Notice</a>
+          </li>
+          <li>
+            <a  href="https://github.com/ROSHAN-KANWAR" target="_blank" class="text-gray-600 hover:text-gray-800">Resource</a>
+          </li>
+   
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">ACADEMIC</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a  href="https://github.com/ROSHAN-KANWAR" target="_blank" class="text-gray-600 hover:text-gray-800">Calender</a>
+          </li>
+          <li>
+            <a  href="https://github.com/ROSHAN-KANWAR" target="_blank" class="text-gray-600 hover:text-gray-800">Classes</a>
+          </li>
+          <li>
+            <a  href="https://github.com/ROSHAN-KANWAR" target="_blank" class="text-gray-600 hover:text-gray-800">Guide</a>
+          </li>
+      
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="bg-slate-800 text-white px-10">
+    <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+      <p class=" text-sm text-center sm:text-left">© 2022 Edublock —
+        <a href="https://in.linkedin.com/in/roshan-kanwar-b80150170"  rel="noopener noreferrer" class=" ml-1" target="_blank">@ROSHAN-KANWAR</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+        <a href="https://in.linkedin.com/in/roshan-kanwar-b80150170" target="_blank" class="mx-2">
+          <ion-icon name="logo-facebook" class="text-2xl text-white " ></ion-icon>
+        </a>
+        <a href="https://github.com/ROSHAN-KANWAR" target="_blank" class="mx-2">
+          <ion-icon name="logo-twitter" class="text-2xl text-white " ></ion-icon>
+        </a>
+        <a href="https://in.linkedin.com/in/roshan-kanwar-b80150170" target="_blank" class="mx-2">
+          <ion-icon name="logo-linkedin" class="text-2xl text-white " ></ion-icon>
+        </a>
+        <a href="https://github.com/ROSHAN-KANWAR" target="_blank" class="mx-2">
+          <ion-icon name="logo-github" class="text-2xl text-white " ></ion-icon>
+        </a>
+      
+      </span>
+    </div>
+  </div>
+</footer>
+   <script>
+    function Menu(e){
+      var list_an = document.getElementById("mobile-menu")
+      list_an=
+        e.name=="menu"?(e.name="close" ,list_an.classList.add('left-[0px]'))
+        :(e.name="menu",list_an.classList.remove('left-[0px]'));
+    }
+   </script>
+   <script>
+    function Closealert(e){
+       var alerts = document.getElementById("alertnews")
+            alerts.classList.add('hidden');
+        console.log("click");
+          }
+   </script>
+</body>
+</html>
